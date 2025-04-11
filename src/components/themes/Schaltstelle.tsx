@@ -1,5 +1,5 @@
 import { ResumeSchemaType } from '@/types/resume'
-import { calculateAge, formatJobFromTo } from '@/utils'
+import { calculateAge, cn, formatJobFromTo } from '@/utils'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -15,7 +15,7 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId }) => {
   const { basics, work, education, languages, projects, certificates, skills } = resume
 
   return (
-    <div id="cv-content" className="mx-auto min-h-[297mm] w-[210mm] bg-white px-12 py-10 font-sans text-gray-900">
+    <A4Page id="cv-content">
       <header className="flex flex-nowrap gap-6 print:flex-nowrap">
         <div className="w-full flex-grow">
           <div className="relative mb-6 flex gap-6 pb-4 after:absolute after:bottom-0 after:left-0 after:h-1 after:w-2/5 after:bg-[#d52626]">
@@ -160,7 +160,7 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId }) => {
                     <p className="text-sm text-gray-600 italic">
                       {formatJobFromTo(project.startDate)}
                       {project.endDate ? ` – ${formatJobFromTo(project.endDate)}` : ' – Jetzt'}
-                      {project.hours && ` (${project.hours} Std)`}
+                      {project.hours && ` (${project.hours})`}
                     </p>
                     {project.contact?.name && (
                       <p className="text-sm text-gray-600 italic">
@@ -202,13 +202,13 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId }) => {
             <aside className="w-[180px] flex-shrink-0">
               <div>
                 {skills?.length && skills.length > 0 && (
-                  <div className="space-y-2">
+                  <div className="space-y-0">
                     <SectionTitle>Skills</SectionTitle>
-                    <ul className="space-y-4 text-sm text-gray-800">
+                    <ul className="space-y-2 text-sm text-gray-800">
                       {skills.map((skill, i) => (
                         <li key={i}>
-                          {skill.name && <div className="text-xs font-semibold text-[#d52626] uppercase">{skill.name}</div>}
-                          {skill.level && <div className="mb-1 text-xs font-semibold text-gray-600">{skill.level}</div>}
+                          {skill.name && <div className="pt-2 text-xs font-semibold text-[#d52626] uppercase">{skill.name}</div>}
+                          {skill.level && <div className="text-xs font-semibold text-gray-600">{skill.level}</div>}
                           {skill.keywords?.length && skill.keywords?.length > 0 && (
                             <div className="text-xs text-gray-700">{skill.keywords.join(', ')}</div>
                           )}
@@ -218,12 +218,12 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId }) => {
                   </div>
                 )}
                 {certificates?.length && certificates?.length > 0 && (
-                  <div className="mt-4 space-y-2">
+                  <div className="mt-2">
                     <SectionTitle>Zertifikate</SectionTitle>
-                    <ul className="space-y-1 text-sm text-gray-800">
+                    <ul className="space-y-2 text-sm text-gray-800">
                       {certificates.map((cert, i) => (
                         <li key={i}>
-                          {cert.name}
+                          <div className="text-xs font-semibold text-gray-600">{cert.name}</div>
                           {cert.issuer && <div className="text-xs text-gray-600"> {cert.issuer}</div>}
                         </li>
                       ))}
@@ -231,12 +231,12 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId }) => {
                   </div>
                 )}
                 {languages?.length && languages?.length > 0 && (
-                  <div className="mt-4 space-y-2">
+                  <div className="mt-2">
                     <SectionTitle>Sprachen</SectionTitle>
                     <ul className="text-sm text-gray-800">
                       {languages.map((lang, i) => (
                         <li key={i}>
-                          {lang.language}
+                          <span className="text-xs font-semibold text-gray-600">{lang.language}</span>
                           {lang.fluency && <span className="text-xs text-gray-600"> ({lang.fluency})</span>}
                         </li>
                       ))}
@@ -246,7 +246,7 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId }) => {
                 {basics?.citizenship?.length && basics?.citizenship?.length > 0 && (
                   <div className="mt-4 space-y-1">
                     <SectionTitle>Staatsangehörigkeit</SectionTitle>
-                    <ul className="text-sm text-gray-800">{basics?.citizenship.map((nat, i) => <li key={i}>{nat.trim()}</li>)}</ul>
+                    <ul className="text-xs text-gray-600">{basics?.citizenship.map((nat, i) => <li key={i}>{nat.trim()}</li>)}</ul>
                   </div>
                 )}
               </div>
@@ -254,10 +254,18 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId }) => {
           </section>
         </div>
       </main>
-    </div>
+    </A4Page>
   )
 }
 
-const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  return <h1 className="text-base font-bold text-[#d52626] uppercase">{children}</h1>
+const SectionTitle: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => {
+  return <h1 className={cn(`text-base font-bold text-[#d52626] uppercase`, className)}>{children}</h1>
+}
+
+const A4Page: React.FC<{ children: React.ReactNode; id?: string; className?: string }> = ({ children, className, id }) => {
+  return (
+    <div id={id} className={cn('mx-auto min-h-[297mm] w-[210mm] bg-white px-12 py-10 font-sans text-gray-900', className)}>
+      {children}
+    </div>
+  )
 }
