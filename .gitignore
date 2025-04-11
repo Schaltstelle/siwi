@@ -1,0 +1,65 @@
+### MacOS ###
+.DS_Store
+*codai*
+
+### nextjs ###
+node_modules/
+.next/
+.env*
+_temp/
+temp/
+
+### Infrastructure ###
+cdk.out/
+*.out.json
+cdk.context.json
+cdk-output*
+infrastructure/**/bin/**
+infrastructure/db/
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### IntelliJ HttpClient ###
+.idea/httpRequests/
+.private.env.json
+/backend/http/http-client.private.env.json
+/backend/apigee-apiable-*.json
+/backend/consumers.json
+/backend/keys.json
+/src/app/(private)/api/migration/
+/cypress.env.json
+/cypress/screenshots/*
+/cypress/downloads/*
+/cypress/videos/*
+
+### Others ###
+.aider*

@@ -1,0 +1,419 @@
+{
+  "basics": {
+    "name": "Alexander Schamne",
+    "label": "Expert Software Engineer",
+    "image": "https://www.schaltstelle.ch/profiles/images/alexander-schamne.jpg",
+    "email": "alexander.schamne@schaltstelle.ch",
+    "gender": "m",
+    "birth": {
+      "date": "20.12.1982"
+    },
+    "phone": "+41 ▮▮ ▮▮▮ ▮▮ ▮▮",
+    "url": "",
+    "summary": "Mit über 18 Jahren Erfahrung als Fullstack-Entwickler und DevOps-Ingenieur habe ich in verschiedenen Branchen gearbeitet, von Immobilien und Bildung bis hin zu Start-ups und Grossunternehmen. Derzeit bin ich CTO und Mitbegründer von Apiable, wo ich das technische Team leite, die Architektur überblicke und AWS-basierte Lösungen umsetze. Ich bin auf Technologien wie React, NodeJS, Java/Kotlin, AWS und CI/CD spezialisiert und fühle mich wohl  in Umgebungen, die auf schlanke Entwicklung und schnelle, qualitativ hochwertige Ergebnisse setzen. Ich suche nach Remote-Freelance-Möglichkeiten, bei denen ich 60-80% (verhandelbar) meiner Zeit in Fullstack- und DevOps-Rollen einbringen kann. Kürzlich bin ich 42 geworden und ich wünschte, ich wüsste die Antwort auf alles, aber ich lerne jeden Tag Neues dazu, z.B., dass Katzen süss nicht schmecken können.",
+    "location": {
+      "address": "Breitenrainplatz 40",
+      "postalCode": "3014",
+      "city": "Bern",
+      "countryCode": "CH",
+      "region": "Schweiz"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "leantrace",
+        "url": "https://github.com/leantrace"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "alexander-schamne",
+        "url": "https://linkedin.com/in/alexander-schamne"
+      }
+    ],
+    "citizenship": [
+      "Schweiz",
+      "Deutsch"
+    ]
+  },
+  "work": [
+    {
+      "name": "Apiable Oy",
+      "position": "CTO & Co-Founder",
+      "url": "https://apiable.io",
+      "startDate": "01.02.2021",
+      "summary": "Technische Verantwortung für Gesamtarchitektur basierend auf AWS, CI/CD, Leitung des technischen Teams und technischer Kundenkontakt.",
+      "location": {
+        "region": "Freiberufler, Remote / Finnland"
+      },
+      "highlights": [
+        "Verantwortung für die gesamtheitliche Software-Architektur auf AWS-Basis",
+        "Einführung und Betreuung von CI/CD-Pipelines für eine reibungslose Auslieferung",
+        "Führung eines interdisziplinären Entwicklerteams in einem agilen Setup",
+        "Technischer Ansprechpartner für Kunden: von Onboarding bis Problem-Lösung",
+        "Enge Zusammenarbeit mit Produktmanagement zur Feature-Planung und -Priorisierung",
+        "Sicherstellung von Codequalität und DevOps-Prozessen durch automatisierte Tests und Reviews"
+      ]
+    },
+    {
+      "name": "Schaltstelle GmbH",
+      "position": "Expert Software Ingenieur",
+      "url": "https://www.schaltstelle.ch",
+      "startDate": "01.02.2017",
+      "summary": "Mitglied des Schaltstelle Teams mit freiberuflichen Spezialisten für Produktentwicklung, Softwareentwicklung, Design, Marketing.",
+      "location": {
+        "region": "Freiberufler, Remote / Schweiz"
+      }
+    },
+    {
+      "name": "AgentSelly AG",
+      "position": "Expert DevOps/Software Ingenieur",
+      "startDate": "01.06.2019",
+      "endDate": "30.06.2020",
+      "location": {
+        "region": "Freiberufler, Remote / Schweiz"
+      },
+      "summary": "Entwicklung und Betrieb von Softwarelösungen im Immobilienbereich mit Fokus auf DevOps und moderne Webtechnologien.",
+      "highlights": [
+        "Fullstack-Entwicklung mit React, Node.js und MongoDB",
+        "Deployment auf Heroku mit CI/CD",
+        "Automatisierung von DevOps-Prozessen"
+      ]
+    },
+    {
+      "name": "PostFinance AG",
+      "position": "Senior DevOps/Software Ingenieur",
+      "startDate": "01.04.2017",
+      "endDate": "30.09.2019",
+      "location": {
+        "region": "Freiberufler, Bern, Schweiz"
+      },
+      "summary": "Mitverantwortlich für die Software- und Infrastrukturentwicklung im Bankenumfeld mit Fokus auf Microservices, CI/CD und DevOps.",
+      "highlights": [
+        "Implementierung von Microservices mit Java, Go und Spring Boot",
+        "Frontend-Entwicklung mit Angular und React",
+        "Optimierung von CI/CD Pipelines"
+      ]
+    },
+    {
+      "name": "Iterativ GmbH",
+      "position": "Senior Software Ingenieur",
+      "startDate": "01.06.2016",
+      "endDate": "28.02.2017",
+      "location": {
+        "region": "Bern, Schweiz"
+      },
+      "summary": "Entwicklung moderner Webanwendungen mit Python/Django und Angular für die Bildungsplattform helloclass.ch.",
+      "highlights": [
+        "Backend mit Django und PostgreSQL",
+        "Frontend mit AngularJS, RxJS, NgRX",
+        "Feature-getriebene Entwicklung im agilen Team"
+      ]
+    },
+    {
+      "name": "leantrace GmbH",
+      "position": "Software & Mindfulness Ingenieur",
+      "startDate": "01.06.2016",
+      "endDate": "30.04.2021",
+      "location": {
+        "region": "Bern, Schweiz"
+      },
+      "summary": "Entwicklung von digitalen Produkten im Bereich Achtsamkeit und Gesundheit. Durchführung von Meditations- und Yoga-Klassen sowie Retreats.",
+      "highlights": [
+        "Konzeption und Umsetzung von www.spomix.ch",
+        "Durchführung von Retreats, Yoga- und Meditationskursen in Unternehmen in Bern",
+        "Integration digitaler Tools zur Unterstützung achtsamer Lebensweisen"
+      ]
+    },
+    {
+      "name": "Swisscom",
+      "position": "Produktmanager | Teamleitung",
+      "startDate": "01.02.2015",
+      "endDate": "31.05.2016",
+      "location": {
+        "region": "Bern / Zürich, Schweiz"
+      },
+      "summary": "Verantwortlich für API-Produkte und Leitung eines Entwicklerteams im Rahmen der digitalen Transformation.",
+      "highlights": [
+        "Produktverantwortung für Payment-, GEO- und Notification-APIs",
+        "Führung eines 7-köpfigen Entwicklerteams",
+        "API-Strategie und Stakeholder-Kommunikation"
+      ]
+    },
+    {
+      "name": "Swisscom",
+      "position": "Software Ingenieur | Scrum Master",
+      "startDate": "01.10.2007",
+      "endDate": "28.02.2015",
+      "location": {
+        "region": "Bern / Zürich, Schweiz"
+      },
+      "summary": "Technische Leitung und Entwicklung der Swisscom API-Plattform mit Fokus auf Agile Methoden und Produktverantwortung.",
+      "highlights": [
+        "Scrum Master und technischer Owner der API-Plattform",
+        "JEE-Entwicklung für Produkte wie Easypay, Messaging Services, XtraZone",
+        "Begleitung der Produkte von Konzept bis Go-Live"
+      ]
+    },
+    {
+      "name": "RTL Group (BCE)",
+      "position": "Software Ingenieur | Masterarbeit",
+      "startDate": "01.01.2007",
+      "endDate": "30.09.2007",
+      "location": {
+        "region": "Luxemburg, Luxemburg"
+      },
+      "summary": "Entwicklung einer Java/Swing-Videoplattform für Journalisten (Newslink) im Rahmen der Masterarbeit bei BCE / RTL Group.",
+      "highlights": [
+        "Java/Swing Desktop-Anwendung zur Videoverteilung",
+        "Anbindung an Redaktionssysteme der RTL-Gruppe",
+        "Dokumentation und Präsentation im internationalen Umfeld"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Fachhochschule Braunschweig/Wolfenbüttel, Deutschland",
+      "url": "https://www.ostfalia.de/cms/en/",
+      "area": "Informatik / Computer Science",
+      "studyType": "Diplom Informatiker (FH)",
+      "startDate": "2003-06-01",
+      "endDate": "2007-06-01",
+      "score": "1.5 (sehr gut)",
+      "courses": [
+        "Software Engineering & Architektur",
+        "Datenbanken & verteilte Systeme",
+        "IT-Sicherheit und Kryptographie",
+        "Projektmanagement & Requirements Engineering",
+        "Java, C/C++, Webentwicklung"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Schaltstelle GmbH",
+      "url": "https://www.schaltstelle.ch",
+      "startDate": "01.10.2024",
+      "endDate": "01.04.2025",
+      "hours": "ca. 480 Stunden",
+      "description": "Entwicklung einer internen Buchhaltungssoftware mit modernen Webtechnologien und agiler Umsetzung – speziell angepasst an KMU-Bedürfnisse. Die App ermöglicht eine intuitive und mobile Nutzung durch alle Mitarbeitenden und beinhaltet u.a. Spesen- und Leistungsmanagement sowie eine vollständige Lohnbuchhaltung mit Anbindung an Bexio.",
+      "highlights": [
+        "Frontend: Next.js, TypeScript, Tailwind CSS, shadcn/ui",
+        "Responsive Design für Mobile und Desktop, inkl. Dark-/Light-Modus",
+        "Backend: PostgreSQL, gehostet in der AWS Cloud",
+        "CI/CD über GitHub Actions, End-to-End-Tests mit Cypress",
+        "API-Anbindung an Buchhaltungssoftware Bexio",
+        "Zweiwöchentliche Scrum-Sprints in enger Abstimmung mit dem Team"
+      ]
+    },
+    {
+      "name": "Apiable Oy",
+      "url": "https://apiable.io",
+      "startDate": "01.01.2020",
+      "endDate": "30.10.2024",
+      "hours": "ca. 10'050 Stunden",
+      "description": "Technische Gesamtverantwortung für zwei zentrale Produkte: Developer Portal as a Service und Apiable Dashboard.",
+      "highlights": [
+        "Konzeption und Implementierung skalierbarer Architekturen auf Basis von React, Vite, Tailwind CSS und MongoDB",
+        "Aufbau einer robusten Infrastruktur in AWS unter Einhaltung bewährter Sicherheits-, Skalierungs- und Performance-Prinzipien",
+        "Design und Automatisierung von CI/CD-Pipelines mit GitHub Actions",
+        "Implementierung von End-to-End-Testprozessen mit Cypress",
+        "Führung eines funktionsübergreifenden Remote-Teams mit technischer Entscheidungsverantwortung und Fokus auf Codequalität",
+        "Integration KI-gestützter Funktionen mittels Model Context Protocol (MCP)",
+        "Regelmässige technische Onboarding-Sessions für Kund:innen und interne Nutzer:innen",
+        "Durchführung von Produkt-Demos, Feature-Pitches und Architektur-Walkthroughs für technische und nicht-technische Stakeholder",
+        "Technischer Hauptansprechpartner für Kundenanfragen, Workshops und Integrationsplanung",
+        "Sicherstellung eines reibungslosen agilen Entwicklungsprozesses durch zweiwöchentliche Sprints, Retrospektiven und Roadmap-Planung"
+      ]
+    },
+    {
+      "name": "PostFinance AG – Konfigurationsüberwachungs-App",
+      "url": "https://postfinance.ch",
+      "startDate": "01.01.2017",
+      "endDate": "31.12.2019",
+      "description": "Webanwendung zur Überwachung von Systemkonfigurationen für stabile Deployments.",
+      "highlights": [
+        "Frontend mit Angular, Backend mit Kotlin Spring Boot",
+        "Früherkennung fehleranfälliger Deployments",
+        "Automatisierte Erkennung von Konfigurationsabweichungen"
+      ]
+    },
+    {
+      "name": "PostFinance AG – CI/CD Analyse-Tool",
+      "url": "https://postfinance.ch",
+      "startDate": "01.01.2017",
+      "endDate": "31.12.2019",
+      "description": "Go-Anwendung zur Analyse und Optimierung von CI/CD-Pipelines.",
+      "highlights": [
+        "Integration in GitLab Actions",
+        "Analyse von Test-Stabilität, Build-Zeiten und Deploy-Frequenz",
+        "Fokus auf Performance und DevOps-Nutzbarkeit"
+      ]
+    },
+    {
+      "name": "AgentSelly AG",
+      "url": "https://agentselly.ch",
+      "startDate": "01.01.2019",
+      "endDate": "31.12.2020",
+      "description": "Digitale Immobilienplattform für Kauf und Verkauf.",
+      "highlights": [
+        "Fullstack mit React, Node.js, MongoDB, Meteor",
+        "Echtzeitfunktionalitäten und schnelles Deployment via Heroku",
+        "End-to-End Prozessdigitalisierung im Immobilienbereich"
+      ]
+    },
+    {
+      "name": "Iterativ GmbH – helloclass.ch",
+      "url": "https://helloclass.ch",
+      "startDate": "01.06.2016",
+      "endDate": "28.02.2017",
+      "description": "Schulplattform zur Organisation von Hausaufgaben und Zeitplänen.",
+      "highlights": [
+        "Backend mit Django, Frontend mit Angular",
+        "Verwaltung von Aufgaben, Terminen, Nutzerrollen",
+        "PostgreSQL-Datenbank und rollenbasiertes Rechtemanagement"
+      ]
+    },
+    {
+      "name": "stayhome.ch",
+      "startDate": "01.03.2020",
+      "endDate": "31.12.2020",
+      "description": "Covid19-Projekt zur Unterstützung lokaler Lieferdienste.",
+      "highlights": [
+        "Fullstack mit Django, Angular, React und PostgreSQL",
+        "Schnelle MVP-Entwicklung in Krisensituation",
+        "Kartenbasierte Suche nach Zustellern"
+      ]
+    },
+    {
+      "name": "spomix.ch",
+      "startDate": "01.01.2017",
+      "endDate": "01.01.2021",
+      "description": "Plattform zur Verwaltung und Buchung von Sportkursen.",
+      "highlights": [
+        "Play Framework mit Java/Scala Backend",
+        "Frontend mit AngularJS",
+        "Planung, Verwaltung und Reservierung von Sportangeboten"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technische Skills",
+      "level": "Experte (10–18 Jahre)",
+      "keywords": [
+        "Java", "JEE", "Spring Boot", "Kotlin",
+        "React (Typescript/JS)", "NodeJS",
+        "PostgreSQL", "Oracle-DB", "MongoDB",
+        "Bash/Shell", "Cloud Services",
+        "API Products", "API Management"
+      ]
+    },
+    {
+      "name": "",
+      "level": "Fortgeschritten (5–10 Jahre)",
+      "keywords": [
+        "Amazon AWS", "CI/CD", "GitHub Actions",
+        "Gitlab Pipelines", "Bitbucket Pipelines",
+        "Cypress", "Selenium", "Unit Testing",
+        "CDK 2.0", "Amazon Gateway", "Apigee Gateway",
+        "Hudson", "Jenkins", "Enterprise Architekturen"
+      ]
+    },
+    {
+      "name": "",
+      "level": "Solide (3–5 Jahre)",
+      "keywords": [
+        "Python (Django)", "GoLang",
+        "Scala (Play Framework)",
+        "AngularJS", "Angular"
+      ]
+    },
+    {
+      "name": "",
+      "level": "Gut (2–3 Jahre)",
+      "keywords": [
+        "Microsoft Azure", "Azure Gateway",
+        "Google Cloud", "Kong Gateway"
+      ]
+    },
+    {
+      "name": "",
+      "level": "Produktentwicklung",
+      "keywords": [
+        "Lean Startup", "MVP", "Lean Canvas",
+        "Continuous Integration", "Continuous Delivery",
+        "Continuous Testing", "Agile Produktentwicklung"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Teamleitung, Kommunikation",
+      "keywords": [
+        "4-jährige Teamleitung als CTO in einem Startup.",
+        "3-jährige Teamleitung in einem Enterprise Unternehmen."
+      ]
+    },
+    {
+      "name": "",
+      "level": "Team- und Anpassungsfähigkeit",
+      "keywords": [
+        ">17 Jahre Erfahrung beim Arbeiten in grossen und kleinen Teams, (Scrum) als Softwareentwickler und Teamleiter in Start-Ups Enterprises und KMUs"
+      ]
+    },
+    {
+      "name": "",
+      "level": "Mindfulness, Meditation & Yoga ",
+      "keywords": [
+        "Zertifizierter Yoga Instruktor: nutze deine Ruhe, Focus, Geduld und  Positivität in der Softwareentwicklung."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Deutsch",
+      "fluency": "Muttersprache"
+    },
+    {
+      "language": "Schweizerdeutsch",
+      "fluency": "Nativ"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "C1, fliessend"
+    },
+    {
+      "language": "Spanisch",
+      "fluency": "B1, intermediate"
+    },
+    {
+      "language": "Russisch",
+      "fluency": "Muttersprache"
+    }
+  ],
+  "interests": [],
+  "certificates": [
+    {
+      "name": "Certified Java Developer",
+      "issuer": "Sun Microsystems"
+    },
+    {
+      "name": "Certified Scala Developer",
+      "issuer": "Coursera / Martin Odersky"
+    },
+    {
+      "name": "Certified iSAQB Software Architect",
+      "issuer": "Gernot Starke"
+    },
+    {
+      "name": "Certified Scrum Master",
+      "issuer": "scrumalliance.org"
+    },
+    {
+      "name": "Certified Yoga & Meditations Lehrer (260h)",
+      "issuer": "Yoga Schule Luzern"
+    }
+  ],
+  "references": [],
+  "awards": [],
+  "publications": []
+}
