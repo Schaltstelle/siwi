@@ -1,0 +1,30 @@
+{
+  "common": {
+    "now": "Jetzt",
+    "in": "in",
+    "contact": "Kontakt"
+  },
+  "resume": {
+    "aboutMe": "Über Mich",
+    "experience": "Erfahrung",
+    "education": "Ausbildung",
+    "finalGrade": "Abschlussnote",
+    "projects": "Projekte",
+    "skills": "Skills",
+    "certificates": "Zertifikate",
+    "languages": "Sprachen",
+    "citizenship": "Staatsangehörigkeit"
+  },
+  "actions": {
+    "print": "Ausdrucken"
+  },
+  "pages": {
+    "home": {
+      "availableResumes": "Verfügbare Lebensläufe"
+    },
+    "theme": {
+      "error": "Fehler: Lebenslaufdaten konnten nicht geladen werden.",
+      "themeNotFound": "Theme nicht gefunden"
+    }
+  }
+}

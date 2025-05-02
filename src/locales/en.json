@@ -1,0 +1,30 @@
+{
+  "common": {
+    "now": "Now",
+    "in": "in",
+    "contact": "Contact"
+  },
+  "resume": {
+    "aboutMe": "About Me",
+    "experience": "Experience",
+    "education": "Education",
+    "finalGrade": "Final Grade",
+    "projects": "Projects",
+    "skills": "Skills",
+    "certificates": "Certificates",
+    "languages": "Languages",
+    "citizenship": "Citizenship"
+  },
+  "actions": {
+    "print": "Print"
+  },
+  "pages": {
+    "home": {
+      "availableResumes": "Available Resumes"
+    },
+    "theme": {
+      "error": "Error: Could not load resume data.",
+      "themeNotFound": "Theme not found"
+    }
+  }
+}
