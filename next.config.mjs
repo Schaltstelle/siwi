@@ -6,7 +6,7 @@ EventEmitter.defaultMaxListeners = 20 // default 10
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   productionBrowserSourceMaps: true,
-  output: 'export',
+  output: 'standalone', //'export',
   basePath: '/siwi',
   logging: {
     fetches: {
