@@ -98,7 +98,7 @@ export const Gazorpazorp: React.FC<Props> = ({ resume, resumeId, lang = 'de' }) 
             <div className="mb-6 rotate-2 transform rounded-lg border-2 border-[#97ce4c] bg-[#e4a788] p-3">
               <div className="mb-2 text-center">
                 <div className="font-['Schwifty'] text-lg text-[#44281d]">Dimension C-137</div>
-                <div className="text-xs text-[#44281d]">Earth's Coolest Resume</div>
+                <div className="text-xs text-[#44281d]">Coolest Resume</div>
               </div>
               <div className="text-xs text-[#44281d] not-italic">
                 <div className="flex items-center">
@@ -312,7 +312,7 @@ export const Gazorpazorp: React.FC<Props> = ({ resume, resumeId, lang = 'de' }) 
           </div>
         </main>
         <footer className="mt-6 text-center text-xs text-[#44281d] italic">
-          "Wubba Lubba Dub Dub!" - {basics?.name || 'Your Interdimensional Resume'}
+          Wubba Lubba Dub Dub! - {basics?.name || 'Your Interdimensional Resume'}
         </footer>
       </div>
     </A4Page>

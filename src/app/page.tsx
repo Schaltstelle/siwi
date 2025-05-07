@@ -4,12 +4,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 type PageProps = {
-  searchParams: { lang?: string }
+  searchParams: Promise<{ lang?: string | undefined }>
 }
 
 export default async function Page({ searchParams }: PageProps) {
   const links = await generateStaticParams()
-  const lang = searchParams.lang || 'de'
+  const lang = (await searchParams).lang || 'de'
 
   return (
     <main className="mx-auto max-w-screen-md px-6 py-10 text-gray-900">
