@@ -1,23 +1,18 @@
-import { generateStaticParams } from '@/app/resumes/[resumeid]/themes/[themeid]/page'
+import { generateStaticParams } from '@/app/resumes/[resumeid]/themes/[themeid]/lang/[lang]/page'
 import { getServerTranslation } from '@/utils/serverTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
-
-type PageProps = {
-  searchParams: Promise<{ lang?: string | undefined }>
-}
-
-export default async function Page({ searchParams }: PageProps) {
+export default async function Page() {
   const links = await generateStaticParams()
-  const lang = (await searchParams).lang || 'de'
+  const lang = 'de'
 
   return (
     <main className="mx-auto max-w-screen-md px-6 py-10 text-gray-900">
       <h1 className="mb-6 text-2xl font-bold">{getServerTranslation('pages.home.availableResumes', lang)}</h1>
       <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {links.map(({ resumeid, themeid }) => (
-          <li key={`${resumeid}-${themeid}`} className="rounded-lg border p-4 shadow transition hover:shadow-md">
-            <Link href={`/resumes/${resumeid}/themes/${themeid}?lang=${lang}`}>
+        {links.map(({ resumeid, themeid, lang }) => (
+          <li key={`${resumeid}-${themeid}-${lang}`} className="rounded-lg border p-4 shadow transition hover:shadow-md">
+            <Link href={`/resumes/${resumeid}/themes/${themeid}/lang/${lang}`}>
               <div className="flex flex-col items-center text-center">
                 <Image
                   src={`/siwi/resumes/${resumeid}.png`}

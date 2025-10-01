@@ -7,12 +7,13 @@ import fs from 'fs'
 import path from 'path'
 
 export async function generateStaticParams() {
-  return [
-    { resumeid: 'alex', themeid: 'schaltstelle' },
-    { resumeid: 'alex', themeid: 'gazorpazorp' },
-    { resumeid: 'stefano', themeid: 'schaltstelle' },
-    { resumeid: 'jasmin', themeid: 'schaltstelle' },
-  ]
+  const combos = [
+    ['alex', ['schaltstelle', 'gazorpazorp'], ['de', 'en']],
+    ['stefano', ['schaltstelle'], ['de']],
+    ['jasmin', ['schaltstelle'], ['de']],
+  ] as const
+
+  return combos.flatMap(([resumeid, themeids, langs]) => themeids.flatMap((themeid) => langs.map((lang) => ({ resumeid, themeid, lang }))))
 }
 
 const getResume = async (resumeId: string, lang?: string) => {
@@ -42,14 +43,12 @@ const getResume = async (resumeId: string, lang?: string) => {
 }
 
 type PageProps = {
-  params: Promise<{ resumeid: string; themeid: string }>
+  params: Promise<{ resumeid: string; themeid: string; lang: string }>
   searchParams: { lang?: string }
 }
 
-const ThemePage = async ({ params, searchParams }: PageProps) => {
-  const { resumeid, themeid } = await params
-  const sp = await searchParams
-  const lang = sp.lang || 'de'
+const ThemePage = async ({ params }: PageProps) => {
+  const { resumeid, themeid, lang } = await params
   const resume = await getResume(resumeid, lang)
 
   if (!resume) {
