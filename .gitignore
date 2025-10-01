@@ -1,6 +1,24 @@
 ### MacOS ###
 .DS_Store
+
+### Editor and AI Tooling
+CLAUDE*
+.claude
+.stories
+GIMINI*
+AGENT*
+PLAN*
+CURL*
+.tasks
+.vscode/
+.idea/
+*.iml
+.aider*
+.junie*
 *codai*
+.sst
+auth.sh
+.serena
 
 ### nextjs ###
 node_modules/
@@ -8,6 +26,7 @@ node_modules/
 .env*
 _temp/
 temp/
+.temp/
 
 ### Infrastructure ###
 cdk.out/

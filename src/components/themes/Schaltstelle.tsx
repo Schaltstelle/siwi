@@ -21,8 +21,8 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId, lang = 'de' })
       <header className="flex flex-nowrap gap-6 print:flex-nowrap">
         <div className="w-full flex-grow">
           <div className="relative mb-6 flex gap-6 pb-4 after:absolute after:bottom-0 after:left-0 after:h-1 after:w-2/5 after:bg-[#d52626]">
-            <div>
-              <Image src={`${basePath}/resumes/${resumeId}.png`} alt="Profile" width={140} height={140} />
+            <div className={'flex items-center'}>
+              <Image src={`${basePath}/resumes/${resumeId}.png`} alt="Profile" width={260} height={260} />
             </div>
             <div>
               <div className="text-3xl font-bold">{basics?.name}</div>
@@ -102,7 +102,7 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId, lang = 'de' })
                     {(job?.highlights?.length || 0) > 0 && (
                       <ul className="mt-2 list-outside list-disc space-y-1 pl-5 text-sm leading-snug text-gray-800">
                         {job?.highlights?.map((hl, j) => (
-                          <li key={j} className="pl-1">
+                          <li key={j} className="pl-1 text-xs">
                             {hl}
                           </li>
                         ))}
@@ -187,7 +187,7 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId, lang = 'de' })
                     {project?.highlights?.length && project?.highlights?.length > 0 && (
                       <ul className="mt-2 list-outside list-disc pl-5 text-sm leading-snug text-gray-800">
                         {project?.highlights?.map((hl, j) => (
-                          <li key={j} className="pl-1">
+                          <li key={j} className="pl-1 text-xs">
                             {hl}
                           </li>
                         ))}
@@ -248,7 +248,11 @@ export const Schaltstelle: React.FC<Props> = ({ resume, resumeId, lang = 'de' })
                 {basics?.citizenship?.length && basics?.citizenship?.length > 0 && (
                   <div className="mt-4 space-y-1">
                     <SectionTitle>{getServerTranslation('resume.citizenship', lang)}</SectionTitle>
-                    <ul className="text-xs text-gray-600">{basics?.citizenship?.map((nat, i) => <li key={i}>{nat?.trim()}</li>)}</ul>
+                    <ul className="text-xs text-gray-600">
+                      {basics?.citizenship?.map((nat, i) => (
+                        <li key={i}>{nat?.trim()}</li>
+                      ))}
+                    </ul>
                   </div>
                 )}
               </div>

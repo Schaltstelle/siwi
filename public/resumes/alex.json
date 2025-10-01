@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alexander Schamne",
-    "label": "Expert Solution Architect | Software Engineer",
+    "label": "Expert Software Ingenieur | Architekt",
     "image": "https://www.schaltstelle.ch/profiles/images/alexander-schamne.jpg",
     "email": "alexander.schamne@schaltstelle.ch",
     "gender": "m",
@@ -10,7 +10,7 @@
     },
     "phone": "+41 ▮▮ ▮▮▮ ▮▮ ▮▮",
     "url": "",
-    "summary": "Mit über 18 Jahren Erfahrung als Fullstack-Entwickler und DevOps-Ingenieur habe ich in verschiedenen Branchen gearbeitet, von Immobilien und Bildung bis hin zu Start-ups und Grossunternehmen. Derzeit bin ich CTO und Mitbegründer von Apiable, wo ich das technische Team leite, die Architektur überblicke und AWS-basierte Lösungen umsetze. Ich bin auf Technologien wie React, NodeJS, Java/Kotlin, AWS und CI/CD spezialisiert und fühle mich wohl  in Umgebungen, die auf schlanke Entwicklung und schnelle, qualitativ hochwertige Ergebnisse setzen. Ich suche nach Remote-Freelance-Möglichkeiten, bei denen ich 60-80% (verhandelbar) meiner Zeit in Fullstack- und DevOps-Rollen einbringen kann. Kürzlich bin ich 42 geworden und ich wünschte, ich wüsste die Antwort auf alles, aber ich lerne jeden Tag Neues dazu, z.B., dass Katzen süss nicht schmecken können.",
+    "summary": "Mit über 18 Jahren Erfahrung als Fullstack-Entwickler und DevOps-Ingenieur habe ich in verschiedenen Branchen gearbeitet, von Immobilien und Bildung bis hin zu Start-ups und Grossunternehmen. Derzeit bin ich CTO und Mitgründer von Apiable, wo ich das technische Team leite, die Architektur überblicke und AWS-basierte Lösungen umsetze. Ich bin auf Technologien wie React, NodeJS, Java/Kotlin, AI MCP, Python FastAPI, AWS und CI/CD spezialisiert und fühle mich wohl  in Umgebungen, die auf schlanke Entwicklung und schnelle, qualitativ hochwertige Ergebnisse setzen. Ich suche nach Remote-Freelance-Möglichkeiten, bei denen ich 40-60% (verhandelbar) meiner Zeit in Fullstack- und DevOps-Rollen einbringen kann. Kürzlich bin ich 42 geworden und ich wünschte, ich wüsste die Antwort auf alles, aber ich lerne jeden Tag Neues dazu, z.B., dass Katzen süss nicht schmecken können.",
     "location": {
       "address": "Breitenrainplatz 40",
       "postalCode": "3014",
@@ -37,6 +37,16 @@
   },
   "work": [
     {
+      "name": "Schaltstelle GmbH",
+      "position": "Expert Software Ingenieur | Architekt",
+      "url": "https://www.schaltstelle.ch",
+      "startDate": "01.02.2017",
+      "summary": "Mitglied des Schaltstelle Teams mit freiberuflichen Spezialisten für Produktentwicklung, Softwareentwicklung, Design, Marketing.",
+      "location": {
+        "region": "Freiberufler, Remote / Schweiz"
+      }
+    },
+    {
       "name": "Apiable Oy",
       "position": "CTO & Co-Founder",
       "url": "https://apiable.io",
@@ -50,19 +60,9 @@
         "Einführung und Betreuung von CI/CD-Pipelines für eine reibungslose Auslieferung",
         "Führung eines interdisziplinären Entwicklerteams in einem agilen Setup",
         "Technischer Ansprechpartner für Kunden: von Onboarding bis Problem-Lösung",
-        "Enge Zusammenarbeit mit Produktmanagement zur Feature-Planung und -Priorisierung",
+        "Enge Zusammenarbeit mit Produktmanagement zur Feature-Planung und Priorisierung",
         "Sicherstellung von Codequalität und DevOps-Prozessen durch automatisierte Tests und Reviews"
       ]
-    },
-    {
-      "name": "Schaltstelle GmbH",
-      "position": "Expert Software Ingenieur",
-      "url": "https://www.schaltstelle.ch",
-      "startDate": "01.02.2017",
-      "summary": "Mitglied des Schaltstelle Teams mit freiberuflichen Spezialisten für Produktentwicklung, Softwareentwicklung, Design, Marketing.",
-      "location": {
-        "region": "Freiberufler, Remote / Schweiz"
-      }
     },
     {
       "name": "AgentSelly AG",
@@ -176,8 +176,8 @@
       "url": "https://www.ostfalia.de/cms/en/",
       "area": "Informatik / Computer Science",
       "studyType": "Diplom Informatiker (FH)",
-      "startDate": "2003-06-01",
-      "endDate": "2007-06-01",
+      "startDate": "01.06.2003",
+      "endDate": "01.06.2007",
       "score": "1.5 (sehr gut)",
       "courses": [
         "Software Engineering & Architektur",
@@ -195,6 +195,11 @@
       "startDate": "01.10.2024",
       "endDate": "01.04.2025",
       "hours": "ca. 480 Stunden",
+      "contact": {
+        "name": "Markus Dessler",
+        "email": "dessler@schaltstelle.ch",
+        "phone": "+41 79 936 55 88"
+      },
       "description": "Entwicklung einer internen Buchhaltungssoftware mit modernen Webtechnologien und agiler Umsetzung – speziell angepasst an KMU-Bedürfnisse. Die App ermöglicht eine intuitive und mobile Nutzung durch alle Mitarbeitenden und beinhaltet u.a. Spesen- und Leistungsmanagement sowie eine vollständige Lohnbuchhaltung mit Anbindung an Bexio.",
       "highlights": [
         "Frontend: Next.js, TypeScript, Tailwind CSS, shadcn/ui",
@@ -211,6 +216,11 @@
       "startDate": "01.01.2020",
       "endDate": "30.10.2024",
       "hours": "ca. 10'050 Stunden",
+      "contact": {
+        "name": "Allan Knabe",
+        "email": "allan.knabe@apiable.io",
+        "phone": "+358 50 5647503"
+      },
       "description": "Technische Gesamtverantwortung für zwei zentrale Produkte: Developer Portal as a Service und Apiable Dashboard.",
       "highlights": [
         "Konzeption und Implementierung skalierbarer Architekturen auf Basis von React, Vite, Tailwind CSS und MongoDB",
@@ -223,6 +233,29 @@
         "Durchführung von Produkt-Demos, Feature-Pitches und Architektur-Walkthroughs für technische und nicht-technische Stakeholder",
         "Technischer Hauptansprechpartner für Kundenanfragen, Workshops und Integrationsplanung",
         "Sicherstellung eines reibungslosen agilen Entwicklungsprozesses durch zweiwöchentliche Sprints, Retrospektiven und Roadmap-Planung"
+      ]
+    },
+    {
+      "name": "AgentSelly AG",
+      "url": "https://agentselly.ch",
+      "startDate": "01.01.2019",
+      "endDate": "31.12.2020",
+      "description": "Digitale Immobilienplattform für Kauf und Verkauf.",
+      "highlights": [
+        "Fullstack mit React, Node.js, MongoDB, Meteor",
+        "Echtzeitfunktionalitäten und schnelles Deployment via Heroku",
+        "End-to-End Prozessdigitalisierung im Immobilienbereich"
+      ]
+    },
+    {
+      "name": "stayhome.ch",
+      "startDate": "01.03.2020",
+      "endDate": "31.12.2020",
+      "description": "Covid19-Projekt zur Unterstützung lokaler Lieferdienste.",
+      "highlights": [
+        "Fullstack mit Django, Angular, React und PostgreSQL",
+        "Schnelle MVP-Entwicklung in Krisensituation",
+        "Kartenbasierte Suche nach Zustellern"
       ]
     },
     {
@@ -250,18 +283,6 @@
       ]
     },
     {
-      "name": "AgentSelly AG",
-      "url": "https://agentselly.ch",
-      "startDate": "01.01.2019",
-      "endDate": "31.12.2020",
-      "description": "Digitale Immobilienplattform für Kauf und Verkauf.",
-      "highlights": [
-        "Fullstack mit React, Node.js, MongoDB, Meteor",
-        "Echtzeitfunktionalitäten und schnelles Deployment via Heroku",
-        "End-to-End Prozessdigitalisierung im Immobilienbereich"
-      ]
-    },
-    {
       "name": "Iterativ GmbH – helloclass.ch",
       "url": "https://helloclass.ch",
       "startDate": "01.06.2016",
@@ -271,17 +292,6 @@
         "Backend mit Django, Frontend mit Angular",
         "Verwaltung von Aufgaben, Terminen, Nutzerrollen",
         "PostgreSQL-Datenbank und rollenbasiertes Rechtemanagement"
-      ]
-    },
-    {
-      "name": "stayhome.ch",
-      "startDate": "01.03.2020",
-      "endDate": "31.12.2020",
-      "description": "Covid19-Projekt zur Unterstützung lokaler Lieferdienste.",
-      "highlights": [
-        "Fullstack mit Django, Angular, React und PostgreSQL",
-        "Schnelle MVP-Entwicklung in Krisensituation",
-        "Kartenbasierte Suche nach Zustellern"
       ]
     },
     {
@@ -323,17 +333,21 @@
       "name": "",
       "level": "Solide (3–5 Jahre)",
       "keywords": [
-        "Python (Django)", "GoLang",
+        "Python (Django, FastAPI, MCP)",
+        "GoLang",
         "Scala (Play Framework)",
         "AngularJS", "Angular"
       ]
     },
     {
       "name": "",
-      "level": "Gut (2–3 Jahre)",
+      "level": "Gut (1–3 Jahre)",
       "keywords": [
-        "Microsoft Azure", "Azure Gateway",
-        "Google Cloud", "Kong Gateway"
+        "Microsoft Azure",
+        "Azure Gateway",
+        "Google Cloud",
+        "Kong Gateway",
+        "AI LLMs, MCP"
       ]
     },
     {
@@ -357,7 +371,7 @@
       "name": "",
       "level": "Team- und Anpassungsfähigkeit",
       "keywords": [
-        ">17 Jahre Erfahrung beim Arbeiten in grossen und kleinen Teams, (Scrum) als Softwareentwickler und Teamleiter in Start-Ups Enterprises und KMUs"
+        ">18 Jahre Erfahrung beim Arbeiten in grossen und kleinen Teams, (Scrum) als Softwareentwickler und Teamleiter in Start-Ups Enterprises und KMUs"
       ]
     },
     {

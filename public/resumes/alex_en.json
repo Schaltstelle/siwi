@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alexander Schamne",
-    "label": "Expert Solution Architect | Software Engineer",
+    "label": "Expert Software Engineer | Architect",
     "image": "https://www.schaltstelle.ch/profiles/images/alexander-schamne.jpg",
     "email": "alexander.schamne@schaltstelle.ch",
     "gender": "m",
@@ -10,13 +10,13 @@
     },
     "phone": "+41 ▮▮ ▮▮▮ ▮▮ ▮▮",
     "url": "",
-    "summary": "With over 18 years of experience as a full-stack developer and DevOps engineer, I have worked across industries from real estate and education to startups and large enterprises. Currently CTO and co-founder of Apiable, I lead the technical team, oversee the architecture, and implement AWS-based solutions. Specialized in React, NodeJS, Java/Kotlin, AWS, and CI/CD. I thrive in lean, fast-paced environments with a focus on high-quality delivery. I'm looking for remote freelance opportunities where I can contribute 60–80% (negotiable) of my time in full-stack and DevOps roles. Recently turned 42, still learning new things every day, like the fact that cats can't taste sweetness.",
+    "summary": "With over 18 years of experience as a full-stack developer and DevOps engineer, I have worked across industries from real estate and education to startups and large enterprises. Currently CTO and co-founder of Apiable, I lead the technical team, oversee the architecture, and implement AWS-based solutions. Specialized in React, NodeJS, Java/Kotlin, AI MCP, Python FastAPI, AWS, and CI/CD. I thrive in lean, fast-paced environments with a focus on high-quality delivery. I'm looking for remote freelance opportunities where I can contribute 40-60% (negotiable) of my time in full-stack and DevOps roles. Recently turned 42, still learning new things every day, like the fact that cats can't taste sweetness.",
     "location": {
       "address": "Breitenrainplatz 40",
       "postalCode": "3014",
       "city": "Bern",
       "countryCode": "CH",
-      "region": "Switzerland"
+      "region": "Schweiz"
     },
     "profiles": [
       {
@@ -31,11 +31,21 @@
       }
     ],
     "citizenship": [
-      "Switzerland",
+      "Swiss",
       "Germany"
     ]
   },
   "work": [
+    {
+      "name": "Schaltstelle GmbH",
+      "position": "Expert Software Engineer | Architect",
+      "url": "https://www.schaltstelle.ch",
+      "startDate": "01.02.2017",
+      "summary": "Member of the Schaltstelle team with freelance specialists for product development, software engineering, design, marketing.",
+      "location": {
+        "region": "Freelancer, Remote / Switzerland"
+      }
+    },
     {
       "name": "Apiable Oy",
       "position": "CTO & Co-Founder",
@@ -53,16 +63,6 @@
         "Close collaboration with product management for feature planning and prioritization",
         "Ensuring code quality and DevOps processes through automated testing and reviews"
       ]
-    },
-    {
-      "name": "Schaltstelle GmbH",
-      "position": "Expert Software Engineer",
-      "url": "https://www.schaltstelle.ch",
-      "startDate": "01.02.2017",
-      "summary": "Member of the Schaltstelle team with freelance specialists for product development, software engineering, design, marketing.",
-      "location": {
-        "region": "Freelancer, Remote / Switzerland"
-      }
     },
     {
       "name": "AgentSelly AG",
@@ -175,9 +175,9 @@
       "institution": "University of Applied Sciences Braunschweig/Wolfenbüttel, Deutschland",
       "url": "https://www.ostfalia.de/cms/en/",
       "area": "Computer Science",
-      "studyType": "Diploma Computer Scientist (FH)",
-      "startDate": "2003-06-01",
-      "endDate": "2007-06-01",
+      "studyType": "Master",
+      "startDate": "01.06.2003",
+      "endDate": "01.06.2007",
       "score": "1.5 (very good)",
       "courses": [
         "Software Engineering & Architecture",
@@ -226,6 +226,29 @@
       ]
     },
     {
+      "name": "AgentSelly AG",
+      "url": "https://agentselly.ch",
+      "startDate": "01.01.2019",
+      "endDate": "31.12.2020",
+      "description": "Digital real estate platform for buying and selling.",
+      "highlights": [
+        "Full-stack with React, Node.js, MongoDB, Meteor",
+        "Real-time functionalities and fast deployment via Heroku",
+        "End-to-end digitalization of the real estate process"
+      ]
+    },
+    {
+      "name": "stayhome.ch",
+      "startDate": "01.03.2020",
+      "endDate": "31.12.2020",
+      "description": "COVID-19 project to support local delivery services.",
+      "highlights": [
+        "Full-stack with Django, Angular, React, and PostgreSQL",
+        "Rapid MVP development in a crisis situation",
+        "Map-based search for delivery services"
+      ]
+    },
+    {
       "name": "PostFinance AG – Configuration-Monitoring-App",
       "url": "https://postfinance.ch",
       "startDate": "01.01.2017",
@@ -250,18 +273,6 @@
       ]
     },
     {
-      "name": "AgentSelly AG",
-      "url": "https://agentselly.ch",
-      "startDate": "01.01.2019",
-      "endDate": "31.12.2020",
-      "description": "Digital real estate platform for buying and selling.",
-      "highlights": [
-        "Full-stack with React, Node.js, MongoDB, Meteor",
-        "Real-time functionalities and fast deployment via Heroku",
-        "End-to-end digitalization of the real estate process"
-      ]
-    },
-    {
       "name": "Iterativ GmbH – helloclass.ch",
       "url": "https://helloclass.ch",
       "startDate": "01.06.2016",
@@ -271,17 +282,6 @@
         "Backend with Django, frontend with Angular",
         "Management of tasks, appointments, user roles",
         "PostgreSQL database and role-based access control"
-      ]
-    },
-    {
-      "name": "stayhome.ch",
-      "startDate": "01.03.2020",
-      "endDate": "31.12.2020",
-      "description": "COVID-19 project to support local delivery services.",
-      "highlights": [
-        "Full-stack with Django, Angular, React, and PostgreSQL",
-        "Rapid MVP development in a crisis situation",
-        "Map-based search for delivery services"
       ]
     },
     {
@@ -298,7 +298,7 @@
   ],
   "skills": [
     {
-      "name": "Technische Skills",
+      "name": "Technical Skills",
       "level": "Expert (10–18 years)",
       "keywords": [
         "Java",
@@ -340,7 +340,7 @@
       "name": "",
       "level": "Solid (3–5 years)",
       "keywords": [
-        "Python (Django)",
+        "Python (Django, FastAPI, MCP)",
         "GoLang",
         "Scala (Play Framework)",
         "AngularJS",
@@ -349,12 +349,13 @@
     },
     {
       "name": "",
-      "level": "Good (2–3 years)",
+      "level": "Good (1–3 years)",
       "keywords": [
         "Microsoft Azure",
         "Azure Gateway",
         "Google Cloud",
-        "Kong Gateway"
+        "Kong Gateway",
+        "AI LLMs, MCP"
       ]
     },
     {
@@ -382,7 +383,7 @@
       "name": "",
       "level": "Team and Adaptability",
       "keywords": [
-        ">17 Jahre Erfahrung beim Arbeiten in grossen und kleinen Teams, (Scrum) als Softwareentwickler und Teamleiter in Start-Ups Enterprises und KMUs"
+        ">18 Jahre Erfahrung beim Arbeiten in grossen und kleinen Teams, (Scrum) als Softwareentwickler und Teamleiter in Start-Ups Enterprises und KMUs"
       ]
     },
     {
@@ -395,23 +396,23 @@
   ],
   "languages": [
     {
-      "language": "Deutsch",
+      "language": "German",
       "fluency": "Native"
     },
     {
-      "language": "Switzerlanderdeutsch",
+      "language": "Swiss-German",
       "fluency": "Native"
     },
     {
-      "language": "Englisch",
+      "language": "English",
       "fluency": "C1, fluent"
     },
     {
-      "language": "Spanisch",
+      "language": "Spanish",
       "fluency": "B1, intermediate"
     },
     {
-      "language": "Russisch",
+      "language": "Russian",
       "fluency": "Native"
     }
   ],
