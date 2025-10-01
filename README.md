@@ -5,7 +5,6 @@
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2317B1B8?logo=tailwindcss&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
 [![Contributors](https://img.shields.io/github/contributors/schaltstelle/siwi)](https://github.com/schaltstelle/siwi/graphs/contributors)
-![MIT License](https://img.shields.io/github/license/schaltstelle/siwi)
 
 This project renders CVs using the [JSON Resume format](https://jsonresume.org/) + Next.js, styled with Tailwind and deployed as a **static site** on **GitHub Pages**.  
 Built for maximum nerd-friendliness, modularity, and zero config onboarding.
@@ -15,9 +14,9 @@ Built for maximum nerd-friendliness, modularity, and zero config onboarding.
 ## Projekt starten / kompilieren
 
 ```bash
-npm install
-npm run build
-npm run start
+pnpm install
+pnpm run build
+pnpm run start
 ```
 
 Rufe die App auf unter:
@@ -71,7 +70,7 @@ Nur hier definierte Kombinationen werden beim Build exportiert!
 4. **Build & Deploy für GitHub Pages**
 
 ```bash
-npm run build
+pnpm run build
 git add .
 git commit -am "cv added"
 git push origin main
@@ -86,12 +85,43 @@ https://schaltstelle.github.io/siwi/resumes/alex/themes/schaltstelle
 
 ---
 
+## Kubernetes Deployment
+
+Die Anwendung kann auch in einem Kubernetes-Cluster mit Terraform bereitgestellt werden. Die Infrastruktur-Konfiguration befindet sich im Verzeichnis `infrastructure/`.
+
+### Schnellstart
+
+```bash
+cd infrastructure
+./setup.sh
+```
+
+Nach der Bereitstellung ist die Anwendung unter folgender URL erreichbar:
+
+```
+http://localhost:4006/siwi/resumes/alex/themes/schaltstelle?lang=en
+```
+
+### Docker-Test
+
+Zum Testen der Anwendung in einem Docker-Container ohne Kubernetes:
+
+```bash
+cd infrastructure
+./docker-test.sh
+```
+
+Weitere Informationen zur Infrastruktur-Konfiguration finden Sie in der [Infrastructure README](./infrastructure/README.md).
+
+---
+
 ## Sonstiges
 
-- Bilder werden automatisch relativ zum `basePath` geladen → z. B. `/siwi/resumes/alex.png`
-- Die App unterstützt Themes, aktuell z. B. `schaltstelle`
+- Bilder werden automatisch relativ zum `basePath` geladen → z. B. `/siwi/resumes/alex.png`
+- Die App unterstützt Themes, aktuell z. B. `schaltstelle`
 - Der Export ist statisch (`output: 'export'`), kein SSR → `getServerSideProps` o.Ä. wird **nicht** unterstützt
 - Deployment erfolgt via GitHub Actions mit [`peaceiris/actions-gh-pages`](https://github.com/peaceiris/actions-gh-pages)
+- Alternativ kann die Anwendung in einem Kubernetes-Cluster mit Terraform bereitgestellt werden
 
 ---
 

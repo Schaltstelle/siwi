@@ -1,4 +1,5 @@
 import { Download } from '@/components/Download'
+import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { Gazorpazorp } from '@/components/themes/Gazorpazorp'
 import { Schaltstelle } from '@/components/themes/Schaltstelle'
 import { getServerTranslation } from '@/utils/serverTranslation'
@@ -10,9 +11,7 @@ export async function generateStaticParams() {
     { resumeid: 'alex', themeid: 'schaltstelle' },
     { resumeid: 'alex', themeid: 'gazorpazorp' },
     { resumeid: 'stefano', themeid: 'schaltstelle' },
-    { resumeid: 'stefano', themeid: 'gazorpazorp' },
     { resumeid: 'jasmin', themeid: 'schaltstelle' },
-    { resumeid: 'jasmin', themeid: 'gazorpazorp' },
   ]
 }
 
@@ -60,6 +59,7 @@ const ThemePage = async ({ params, searchParams }: PageProps) => {
   if (themeid === 'schaltstelle') {
     return (
       <div>
+        <LanguageSwitcher />
         <Download />
         <Schaltstelle resume={resume} resumeId={resumeid} lang={lang} />
       </div>
@@ -69,6 +69,7 @@ const ThemePage = async ({ params, searchParams }: PageProps) => {
   if (themeid === 'gazorpazorp') {
     return (
       <div>
+        <LanguageSwitcher />
         <Download />
         <Gazorpazorp resume={resume} resumeId={resumeid} lang={lang} />
       </div>
