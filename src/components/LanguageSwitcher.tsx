@@ -22,8 +22,8 @@ export const LanguageSwitcher = () => {
     <div className="fixed top-4 right-4 z-50 flex gap-2 rounded-lg bg-white p-2 print:hidden">
       <Link
         href={makeLangPath('de')}
-        className={`h-10 w-10 rounded transition-all ${
-          currentLang === 'de' ? 'scale-110 ring-2 ring-blue-500' : 'opacity-60 hover:opacity-100'
+        className={`h-8 w-8 rounded transition-all ${
+          currentLang === 'de' ? 'scale-110 ring-1 ring-blue-500' : 'opacity-60 hover:opacity-100'
         }`}
         title="Deutsch"
       >
@@ -31,7 +31,7 @@ export const LanguageSwitcher = () => {
       </Link>
       <Link
         href={makeLangPath('en')}
-        className={`h-10 w-10 rounded transition-all ${
+        className={`h-8 w-8 rounded transition-all ${
           currentLang === 'en' ? 'scale-110 ring-2 ring-blue-500' : 'opacity-60 hover:opacity-100'
         }`}
         title="English"
